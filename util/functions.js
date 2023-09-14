@@ -10,4 +10,4 @@ const generateOTP = (length = 4) => {
 }
 
 
-module.exports ={generateOTP}
+module.exports = { generateOTP }

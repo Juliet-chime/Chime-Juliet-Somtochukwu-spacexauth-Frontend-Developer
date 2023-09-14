@@ -3,10 +3,10 @@ const express = require('express')
 const router = express.Router()
 const resertPassword = require('../controllers/resetPasswordControllers')
 
-const {handleResetPassword} = resertPassword
+const { handleResetPassword } = resertPassword
 
 
-router.post('/resetPassword',handleResetPassword)
+router.post('/resetPassword', handleResetPassword)
 
 
 

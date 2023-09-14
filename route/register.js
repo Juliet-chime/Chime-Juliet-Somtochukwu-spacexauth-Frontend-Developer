@@ -5,6 +5,6 @@ const handleNewUser = require('../controllers/registerControllers.js')
 const verifySchema = require('../middleware/verifySchema.js')
 const registerSchema = require('../schemas/userSchema.js')
 
-router.post('/',verifySchema(registerSchema),handleNewUser)
+router.post('/', verifySchema(registerSchema), handleNewUser)
 
 module.exports = router
